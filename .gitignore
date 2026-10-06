@@ -1,0 +1,15 @@
+target/
+*.class
+
+# NetBeans
+nbproject/private/
+nbbuild/
+build/
+dist/
+
+# IDEs
+.idea/
+.vscode/
+
+# Logs
+*.log
