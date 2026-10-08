@@ -43,7 +43,8 @@ public class ConexionJPA {
             baseDatos = "sistema_personas";
         }
 
-        String url = "jdbc:mysql://" + host + ":" + puerto + "/" + baseDatos;
+        String url = "jdbc:mysql://" + host + ":" + puerto + "/" + baseDatos
+        + "?sslMode=REQUIRED&serverTimezone=UTC";
 
         propiedades.put(
                 "jakarta.persistence.jdbc.driver",
